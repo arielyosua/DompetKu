@@ -7,11 +7,11 @@ Proyek ini dibuat sebagai bagian dari proses belajar pengembangan aplikasi mobil
 ## ✨ Tangkapan Layar (Screenshots)
 
 | Halaman Hari Ini | Halaman Riwayat & Grafik |
-|:---:|:---:|:---:|
-| ![Halaman Hari Ini](https://github.com/user-attachments/assets/3cf0e973-ce27-47e2-a3ea-c3ad0cef1151) | ![Halaman Riwayat & Grafik](https://github.com/user-attachments/assets/bce7ae5d-3316-49a5-8f86-21ae0fbab71f) |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/3cf0e973-ce27-47e2-a3ea-c3ad0cef1151" width="300"> | <img src="https://github.com/user-attachments/assets/bce7ae5d-3316-49a5-8f86-21ae0fbab71f" width="300"> |
 | Form Tambah/Edit | Detail Riwayat |
 |:---:|:---:|
-| ![Form](https://github.com/user-attachments/assets/99cb5812-bdcd-4600-9b5a-8e540acd7066) | ![Detail Riwayat](https://github.com/user-attachments/assets/138d61eb-cfff-4aff-9636-fc7a9922d125) |
+| <img src="https://github.com/user-attachments/assets/99cb5812-bdcd-4600-9b5a-8e540acd7066" width="300"> | <img src="https://github.com/user-attachments/assets/138d61eb-cfff-4aff-9636-fc7a9922d125" width="300"> |
 
 ## 🚀 Fitur Utama
 
@@ -33,24 +33,24 @@ Proyek ini dibuat sebagai bagian dari proses belajar pengembangan aplikasi mobil
 ## ⚙️ Cara Menjalankan Proyek
 
 1.  **Clone repository ini:**
-    ```bash
+    \`\`\`bash
     git clone [https://github.com/arielyosua/DompetKu.git](https://github.com/arielyosua/DompetKu.git)
-    ```
+    \`\`\`
 2.  **Pindah ke direktori proyek:**
-    ```bash
+    \`\`\`bash
     cd DompetKu
-    ```
+    \`\`\`
 3.  **Setup Firebase:**
     Pastikan Anda sudah memiliki file `firebase_options.dart` yang terkonfigurasi dengan proyek Firebase Anda. Ikuti petunjuk dari [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup).
 
 4.  **Install dependencies:**
-    ```bash
+    \`\`\`bash
     flutter pub get
-    ```
+    \`\`\`
 5.  **Jalankan aplikasi:**
-    ```bash
+    \`\`\`bash
     flutter run
-    ```
+    \`\`\`
 
 ## 🗺️ Rencana Pengembangan (Roadmap)
 
