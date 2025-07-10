@@ -1,70 +1,62 @@
-# DompetKu
+#  DompetKu - Aplikasi Pencatat Keuangan Pribadi 💰
 
-Aplikasi pengelolaan keuangan pribadi yang intuitif dan mudah digunakan, dibangun dengan Flutter. DompetKu membantu Anda mencatat pemasukan dan pengeluaran, memantau saldo, serta mengelola transaksi harian agar keuangan tetap terkontrol.
+Aplikasi mobile sederhana yang dibuat menggunakan Flutter untuk membantu melacak pemasukan dan pengeluaran keuangan pribadi. Aplikasi ini terhubung dengan Firebase Firestore sebagai database real-time dan menampilkan visualisasi data yang interaktif.
 
-## Fitur Utama
+Proyek ini dibuat sebagai bagian dari proses belajar pengembangan aplikasi mobile dengan Flutter.
 
-* **Pencatatan Transaksi:** Mudah menambahkan pemasukan dan pengeluaran dengan kategori yang dapat disesuaikan.
-* **Ringkasan Keuangan:** Lihat ringkasan saldo terkini dan riwayat transaksi.
-* **Kategori Transaksi:** Kelola kategori untuk pengeluaran dan pemasukan agar analisis lebih mudah.
-* **Antarmuka Pengguna Intuitif:** Desain bersih dan mudah dinavigasi untuk pengalaman pengguna yang nyaman.
+## ✨ Tangkapan Layar (Screenshots)
 
-## Teknologi yang Digunakan
+| Halaman Hari Ini | Halaman Riwayat | Grafik Interaktif |
+|:---:|:---:|:---:|
+| ![Halaman Hari Ini](https://raw.githubusercontent.com/arielyosua/DompetKu/main/screenshot/Screenshot%20(1).png) | ![Halaman Riwayat](https://raw.githubusercontent.com/arielyosua/DompetKu/main/screenshot/Screenshot%20(2).png) | ![Grafik](https://raw.githubusercontent.com/arielyosua/DompetKu/main/screenshot/Screenshot%20(3).png) |
 
-* **Flutter:** Framework UI untuk membangun aplikasi mobile, web, dan desktop dari satu codebase.
-* **Dart:** Bahasa pemrograman yang digunakan oleh Flutter.
-* *(Tambahkan di sini jika Anda menggunakan database lokal seperti `sqflite`, `Hive`, atau layanan backend seperti Firebase, dll.)*
+| Form Tambah/Edit | Detail Riwayat |
+|:---:|:---:|
+| ![Form](https://raw.githubusercontent.com/arielyosua/DompetKu/main/screenshot/Screenshot%20(4).png) | ![Detail Riwayat](https://raw.githubusercontent.com/arielyosua/DompetKu/main/screenshot/Screenshot%20(5).png) |
 
-## Cara Instalasi dan Menjalankan Proyek
+## 🚀 Fitur Utama
 
-Untuk menjalankan proyek DompetKu ini di lingkungan pengembangan Anda, ikuti langkah-langkah berikut:
+- **📊 Dashboard Real-time:** Menampilkan ringkasan sisa uang total dan aktivitas keuangan (pemasukan, pengeluaran, saldo) khusus untuk hari ini.
+- **📈 Grafik Interaktif:** Visualisasi tren pemasukan & pengeluaran dalam rentang waktu 7 atau 30 hari terakhir menggunakan line chart yang modern.
+- **📜 Riwayat Transaksi:** Menampilkan semua histori transaksi yang dikelompokkan per hari dengan ringkasan harian yang bisa di-expand/collapse untuk melihat detail.
+- **➕ Tambah Transaksi:** Form input yang mudah digunakan untuk mencatat pemasukan atau pengeluaran baru.
+- **✏️ Edit & Hapus Transaksi:** Mengelola data transaksi dengan mudah (tap untuk edit, swipe untuk hapus).
+- **🗂️ Kategori Dinamis:** Pilihan kategori umum (Makanan, Transportasi, dll.) dengan opsi untuk menambah kategori kustom saat input data.
 
-1.  **Pastikan Anda Sudah Menginstal Flutter SDK:**
-    Jika belum, ikuti panduan instalasi dari dokumentasi resmi Flutter: [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
+## 🛠️ Teknologi & Package yang Digunakan
 
-2.  **Clone Repositori:**
-    Buka Terminal atau Command Prompt Anda, lalu jalankan perintah berikut:
+- **Framework:** Flutter
+- **Database:** Google Firebase (Cloud Firestore)
+- **State Management:** StatefulWidget
+- **Charting:** [fl_chart](https://pub.dev/packages/fl_chart)
+- **Formatting:** [intl](https://pub.dev/packages/intl)
+
+## ⚙️ Cara Menjalankan Proyek
+
+1.  **Clone repository ini:**
     ```bash
     git clone [https://github.com/arielyosua/DompetKu.git](https://github.com/arielyosua/DompetKu.git)
     ```
-
-3.  **Masuk ke Direktori Proyek:**
+2.  **Pindah ke direktori proyek:**
     ```bash
     cd DompetKu
     ```
+3.  **Setup Firebase:**
+    Pastikan Anda sudah memiliki file `firebase_options.dart` yang terkonfigurasi dengan proyek Firebase Anda. Ikuti petunjuk dari [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup).
 
-4.  **Dapatkan Dependensi Flutter:**
-    Jalankan perintah ini untuk mengunduh semua paket yang dibutuhkan proyek:
+4.  **Install dependencies:**
     ```bash
     flutter pub get
     ```
-
-5.  **Jalankan Aplikasi:**
-    Pastikan Anda memiliki emulator Android/iOS yang sedang berjalan atau perangkat fisik yang terhubung. Lalu, jalankan aplikasi:
+5.  **Jalankan aplikasi:**
     ```bash
     flutter run
     ```
-    Aplikasi akan ter-deploy dan berjalan di perangkat/emulator Anda.
 
----
+## 🗺️ Rencana Pengembangan (Roadmap)
 
-## Kontribusi
-
-Kami sangat terbuka untuk kontribusi! Jika Anda memiliki ide, perbaikan bug, atau ingin menambahkan fitur baru, silakan ajukan Pull Request.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [Nama Lisensi Anda, misal: MIT License]. Lihat file `LICENSE` untuk detail lebih lanjut.
-
----
-
-## Getting Started (Untuk Pengembang Flutter Baru)
-
-Jika ini adalah proyek Flutter pertama Anda dan Anda membutuhkan bantuan lebih lanjut:
-
-* [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-* [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-Untuk bantuan lebih lanjut dalam pengembangan Flutter, lihat
-[dokumentasi online](https://docs.flutter.dev/), yang menawarkan tutorial,
-contoh, panduan pengembangan mobile, dan referensi API lengkap.
+Beberapa fitur yang direncanakan untuk pengembangan selanjutnya:
+- [ ] Fitur Filter & Pencarian di halaman Riwayat.
+- [ ] Fitur Ekspor data ke format CSV/PDF.
+- [ ] Notifikasi harian untuk mengingatkan input transaksi.
+- [ ] Tema Terang & Gelap (Light & Dark Mode).
