@@ -9,8 +9,8 @@ Proyek ini dibuat sebagai bagian dari proses belajar pengembangan aplikasi mobil
 | Halaman Hari Ini | Halaman Riwayat & Grafik |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/3cf0e973-ce27-47e2-a3ea-c3ad0cef1151" width="300"> | <img src="https://github.com/user-attachments/assets/bce7ae5d-3316-49a5-8f86-21ae0fbab71f" width="300"> |
-| Form Tambah/Edit | Detail Riwayat |
 |:---:|:---:|
+| Form Tambah/Edit | Detail Riwayat |
 | <img src="https://github.com/user-attachments/assets/99cb5812-bdcd-4600-9b5a-8e540acd7066" width="300"> | <img src="https://github.com/user-attachments/assets/138d61eb-cfff-4aff-9636-fc7a9922d125" width="300"> |
 
 ## 🚀 Fitur Utama
